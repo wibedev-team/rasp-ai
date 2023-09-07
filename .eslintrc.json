@@ -13,5 +13,14 @@
       "version": "detect"
     }
   },
-  "extends": ["next/core-web-vitals", "plugin:react/recommended", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended", "airbnb-typescript/base", "prettier"]
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  },
+
+  "extends": ["next/core-web-vitals", "plugin:react/recommended", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended", "airbnb-typescript", "prettier"]
 }
